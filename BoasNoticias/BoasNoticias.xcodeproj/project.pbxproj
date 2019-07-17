@@ -14,6 +14,7 @@
 		B12AB5BF22DDD30B0087FC64 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12AB5BE22DDD30B0087FC64 /* NewsListTableViewController.swift */; };
 		B12AB5C322DDDEF10087FC64 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12AB5C222DDDEF10087FC64 /* WebService.swift */; };
 		B12AB5C622DF22900087FC64 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12AB5C522DF22900087FC64 /* Article.swift */; };
+		B12AB5C922DF2BB10087FC64 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12AB5C822DF2BB10087FC64 /* ArticleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B12AB5BE22DDD30B0087FC64 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		B12AB5C222DDDEF10087FC64 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		B12AB5C522DF22900087FC64 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B12AB5C822DF2BB10087FC64 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B12AB5AA22DDD1EC0087FC64 /* BoasNoticias */ = {
 			isa = PBXGroup;
 			children = (
+				B12AB5C722DF2B830087FC64 /* View Models */,
 				B12AB5C422DF225D0087FC64 /* Models */,
 				B12AB5C022DDDEC00087FC64 /* Services */,
 				B12AB5BD22DDD2C70087FC64 /* Controllers */,
@@ -92,6 +95,14 @@
 				B12AB5C522DF22900087FC64 /* Article.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B12AB5C722DF2B830087FC64 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B12AB5C822DF2BB10087FC64 /* ArticleViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				B12AB5C622DF22900087FC64 /* Article.swift in Sources */,
 				B12AB5C322DDDEF10087FC64 /* WebService.swift in Sources */,
 				B12AB5BF22DDD30B0087FC64 /* NewsListTableViewController.swift in Sources */,
+				B12AB5C922DF2BB10087FC64 /* ArticleViewModel.swift in Sources */,
 				B12AB5AC22DDD1EC0087FC64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
