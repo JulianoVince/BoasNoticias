@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BoasNoticias/Services/WebService.swift"
-            timestampString = "585138001.004831"
+            timestampString = "585219052.331802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BoasNoticias/Controllers/NewsListTableViewController.swift"
-            timestampString = "585138001.004974"
+            timestampString = "585219052.331876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "setup()"
             landmarkType = "7">
          </BreakpointContent>
